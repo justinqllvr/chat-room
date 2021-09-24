@@ -1,0 +1,89 @@
+.users-container {
+  width: 20vw;
+  margin: 2vw;
+  z-index: 2;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.users-name__container {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 20%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8.4px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 0.5px solid rgba(255, 255, 255, 0.5);
+  height: 2rem;
+  margin: 10px;
+  max-width: 15vw;
+  display: flex;
+  flex-direction: row;
+  word-wrap: break-word;
+}
+
+.user-name__color {
+  border-radius: 100%;
+  background-color: #111144;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 0.25rem;
+  margin-left: 0.5vw;
+}
+
+.user-name {
+  font-family: "Averia Libre";
+  font-weight: 400;
+  color: #111144;
+  line-height: 2rem;
+  margin-left: 2rem;
+  word-wrap: break-word;
+}
+
+.users-container__users {
+  max-height: 70vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin-top: 0.5rem;
+}
+.users-container__users::-webkit-scrollbar {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin: 3vh 0 3vh 0;
+  width: 0.5vw;
+}
+
+.users-container__users::-webkit-scrollbar-thumb {
+  background: #254dc2;
+  border-radius: 10px;
+  height: 1vh;
+  width: 0.5vw;
+}
+
+.orange {
+  border-radius: 100%;
+  background-color: #ef7d7a;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 0.25rem;
+  margin-left: 0.5vw;
+}
+
+.blue {
+  border-radius: 100%;
+  background-color: #254dc2;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 0.25rem;
+  margin-left: 0.5vw;
+}
+
+.violet {
+  border-radius: 100%;
+  background-color: #9d80cf;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 0.25rem;
+  margin-left: 0.5vw;
+}

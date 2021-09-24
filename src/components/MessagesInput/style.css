@@ -1,0 +1,51 @@
+.messages-form {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 20%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8.4px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 0.5px solid rgba(255, 255, 255, 0.5);
+  height: 3rem;
+  float: right;
+  margin-top: 2rem;
+}
+
+.message-form__input {
+  background-color: transparent;
+  color: #111144;
+  font-family: "Averia Libre";
+  font-size: 1.5625rem;
+  border: 0px;
+  line-height: 3rem;
+  margin-left: 2rem;
+  width: 90%;
+}
+
+.message-form__input:focus-visible {
+  border: 0px;
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.message-form__input::placeholder {
+  color: #111144;
+  font-family: "Averia Libre";
+  font-weight: 400;
+}
+
+.message-form__button {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-right: 8px;
+  float: right;
+  cursor: pointer;
+}
+
+.message-form__button:hover {
+  width: 2.2rem;
+  transition: 0.2s;
+  height: 2.2rem;
+  margin-top: 0.3rem;
+}

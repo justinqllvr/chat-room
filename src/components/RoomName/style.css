@@ -1,0 +1,40 @@
+.room-name__container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Averia Libre";
+  font-weight: 500;
+  font-size: 1.5625rem;
+  color: #111144;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 20%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8.4px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 0.5px solid rgba(255, 255, 255, 0.5);
+  height: 10vh;
+  width: 15vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.room-name__number_online {
+  font-family: "Averia Libre";
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #111144;
+}
+
+.room-name__img {
+  width: 4vh;
+  margin-right: 2vw;
+  cursor: pointer;
+}
+
+.room-name__text {
+  display: flex;
+  flex-direction: column;
+}

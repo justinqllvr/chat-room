@@ -1,0 +1,36 @@
+.chat-room {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(270deg, rgba(199, 174, 226, 0.5) 0%, #8F71C9 24.48%, #254DC2 38.54%, #D8617E 62.5%, #EF7D7A 80.73%, #F9D6BC 100%);
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.chat-message__container {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.chat-room__blur {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(35px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.chat-room-bruit {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}

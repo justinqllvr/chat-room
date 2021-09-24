@@ -1,0 +1,113 @@
+.message-list-box {
+  margin-right: 5px;
+  padding: 5px;
+  flex-wrap: nowrap;
+  height: 80vh;
+  width: 70vw;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.message-list-box::-webkit-scrollbar {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin: 3vh 0 3vh 0;
+  width: 0.5vw;
+}
+
+.message-list-box::-webkit-scrollbar-thumb {
+  background: #254dc2;
+  border-radius: 10px;
+  height: 5vh;
+  width: 0.5vw;
+}
+
+.message-box {
+  margin: 3px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  word-wrap: break-word;
+}
+
+.message-box_current_user {
+  margin: 0px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  word-wrap: break-word;
+  float: right;
+}
+
+.message-content {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 20%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8.4px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 0.5px solid rgba(255, 255, 255, 0.5);
+  padding: 1.2rem;
+  color: #111144;
+  font-family: "Averia Libre";
+  font-weight: 400;
+  font-size: 1.5625rem;
+}
+
+.message-name {
+  color: #111144;
+  font-family: "Averia Libre";
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-left: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.avatar-color__random {
+  border-radius: 100%;
+  background-color: #111144;
+  margin-bottom: 0.2rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 0.25rem;
+  margin-left: 1vw;
+}
+
+.avatar-user__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.orange-message {
+  border-radius: 100%;
+  background-color: #ef7d7a;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 0.25rem;
+  margin-left: 0.5vw;
+  margin-bottom: 0.2rem;
+}
+
+.blue-message {
+  border-radius: 100%;
+  background-color: #254dc2;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 0.25rem;
+  margin-left: 0.5vw;
+  margin-bottom: 0.2rem;
+}
+
+.violet-message {
+  border-radius: 100%;
+  background-color: #9d80cf;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 0.25rem;
+  margin-left: 0.5vw;
+  margin-bottom: 0.2rem;
+}
